@@ -1,0 +1,29 @@
+Given two strings A and B consisting of lowercase English letters. Choose any integer K and determine if A can be converted into B by shifting each character to the left by K.
+
+For example, if K is 1
+- character a shifted to left by 1 is z
+- character b shifted to left by 1 is a
+- character c shifted to left by 1 is b
+- character z shifted to left by 1 is y
+
+For example if K is 2
+- character a shifted to left by 1 is y
+- character b shifted to left by 1 is z
+- character c shifted to left by 1 is a
+- character z shifted to left by 1 is x
+
+Input Format
+
+1st line of input consists of string A.
+2nd line of input consists of string B.
+
+Constraints
+
+1 <= length of A <= 105
+1 <= length of B <= 105
+length of A = length of B
+'a' <= Ai, Bi <= 'z', where Ai, Bi represent characters at ith index of string A and B respectively.
+
+Output Format
+
+Print Yes if you can convert A to B. Else print No.

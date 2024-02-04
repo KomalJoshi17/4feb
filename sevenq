@@ -1,0 +1,18 @@
+Given an integer array of size N. You are allowed to perform the below operation only if all the array elements are even.
+
+Replace each element X of the array by X/2.
+Print the maximum number of operations you can perform on an array.
+
+Input Format
+
+1st line contains a single integer N which denotes the size of the array.
+2nd line contains N space-separated integers denoting the elements of the array.
+
+Constraints
+
+1 ≤ N ≤ 105
+1 ≤ Ai ≤ 109, where Ai represents element at ith index of the array.
+
+Output Format
+
+Print the maximum number of operations that can be performed on the array.

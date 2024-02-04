@@ -1,0 +1,18 @@
+Given a N x N matrix A, find out the maximum sum of elements present in a diagonal among all diagonals of the given matrix.
+Matrix may contain negative integer elements as well.
+
+Note: Diagonals can be from top left to bottom right and also from top right to bottom left.
+
+Input Format
+
+First line contains N, the size of square matrix.
+For next N lines, the ith line contains N space separated integer denoting ith row of N x N matrix.
+
+Constraints
+
+1 ≤ N ≤ 1000
+-109 ≤ Ai,j ≤ 109, where Ai,j represents the element at ith and jth column of the matrix.
+
+Output Format
+
+Output should be a single integer denoting the maximum sum of elements present in a diagonal among all diagonals.
