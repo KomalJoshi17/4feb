@@ -1,0 +1,18 @@
+Given an array of integers Arr of length N. Print the count of the triplets which form a non-degenerate triangle and satisfy the below conditions:
+- Arri, Arrj, Arrk are pairwise distinct.
+- i < j < k. (where i, j and k are indices of the array)
+
+Note - A non-degenerate triangle is a triangle that has a positive area.
+
+Input Format
+
+1st line consists of N, which denotes the size of array.
+2nd line consists of N space-separated integers denoting the elements of the array.
+
+Constraints
+
+1 <= N <= 100
+1 <= Arri <= 109, where Arri represents the element at ith index of the array.
+Output Format
+
+Output should be a single integer, denoting the count of triplets which form a non-degenerate triangle.
